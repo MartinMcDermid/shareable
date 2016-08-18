@@ -22,6 +22,7 @@ Shareable.configure do |config|
   #config.ref=''
   #config.share='' # 'true' or 'false'. '' defaults to 'false'.
   #config.kid_directed_site='' # 'true' or 'false'. '' defaults to 'false'. Facebook assumes your site is not kid friendly.
+  #config.button_name=''
 
   ###############
   ##google_plus

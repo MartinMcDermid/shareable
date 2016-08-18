@@ -20,7 +20,7 @@ module Shareable
                     :bordercolor, :btnsrc, :via, :text, :related, :count, :lang, :counturl, :hashtags, :size, :dnt,
                     :type, :styled, :newwindow, :description, :counter, :onsuccess, :onerror, :showzero,
                     :recommendations, :points, :badge_layout, :background, :share, :kid_directed_site,
-                    :button_only, :static_link, :turbolinks
+                    :button_only, :static_link, :turbolinks, :button_name
   end
 
   configure do |config|
@@ -29,6 +29,7 @@ module Shareable
     config.static_link=false # renders html links instead of javascript buttons.
     config.button_only=false # omit initializing javacript code. Only button code is rendered.
     config.turbolinks=false # set to true to enable turbolinks fixes. Requires jquery to work!
+    config.button_name=''
 
     ##############
     #facebook
